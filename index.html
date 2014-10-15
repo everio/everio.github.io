@@ -2,22 +2,133 @@
 layout: default
 ---
 
-<div class="home">
+<article class="expertise">
+  <div class="wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1>Compétences techniques</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <section>
+      <ul class="expertise-list">
+        <li>Technologies : PHP5, Javascript (Jquery), HTML5/CSS3 (standards W3C)</li>
+        <li>Framework / CMS : Symfony2, Silex, Prestashop, Wordpress</li>
+        <li>Base de données : Mysql, Doctrine</li>
+        <li>Serveurs : Linux (Debian), Apache2</li>
+        <li>Outils de graphisme : Photoshop, Illustrator, InDesign</li>
+        <li>Gestion de projet : Versioning (Git, SVN), Redmine</li>
+        <li>Environnement de développement web : Netbeans, Sublime Text</li>
+      </ul>
+    </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  </div>
+</article>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<article class="experience">
+  <div class="wrapper">
 
-</div>
+    <h1>Expériences professionnelles</h1>
+
+    <section>
+      <h2>Développeur web - Agence Plusqueduweb à Paris (75)</h2>
+      <p class="experience-meta">Novembre 2010 - Avril 2014</p>
+      <ul class="experience-list">
+        <li>Etude des besoins et estimation du développement des fonctionnalités</li>
+        <li>Développement d'applications web avec le framework Symfony2</li>
+        <li>Boutiques en ligne avec Prestashop</li>
+        <li>Réalisation de projets divers sous Wordpress ou avec un framework développé au sein de l'agence. Intégration HTML5 / CSS3 et responsive dans le respect des standards.</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Stage - Startup Yoocasa à Paris (75)</h2>
+      <p class="experience-meta">Avril - Octobre 2010</p>
+      <ul class="experience-list">
+        <li>Développement d'un back-end d'analyse du réseau social Yoocasa </li>
+      </ul>
+    </section>
+
+  </div>
+</article>
+
+<article class="reference">
+  <div class="wrapper">
+
+  <h1>Sites web réalisés à l'agence Plusqueduweb</h1>
+  
+  <section>
+    <p>Plus de 50 sites ont été réalisés au sein de l'agence Plusqueduweb pour laquelle j'ai travaillé pendant 4 ans et dont voici les dernières réalisations : </p>
+  </section>
+
+  <ul class="reference-list cs-style-6">
+        <li>
+          <figure>
+            <img src="images/kidssitter.png" alt="Kidssiter">
+            <figcaption>
+              <h3>Kidssitter</h3>
+              <span>Symfony2</span>
+              <a href="http://dribbble.com/shots/1115632-Camera" target="_blank">Voir le site</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/poyzandpirlz.png" alt="Poyz &amp; Pirlz">
+            <figcaption>
+              <h3>Poyz &amp; Pirlz</h3>
+              <span>Prestashop</span>
+              <a href="http://www.poyzandpirlz.com/" target="_blank">Voir le site</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/christopheadam.png" alt="Christophe Adam">
+            <figcaption>
+              <h3>Christophe Adam</h3>
+              <span>Wordpress</span>
+              <a href="http://www.christopheadam.com/" target="_blank">Voir le site</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="images/esem.png" alt="ESEM">
+            <figcaption>
+              <h3>ESEM</h3>
+              <span>Framework de l'agence</span>
+              <a href="http://www.esem-edu.fr/" target="_blank">Voir le site</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+  </div>
+</article>
+
+<article class="formation">
+  <div class="wrapper">
+
+    <h1>Formations</h1>
+
+    <section>
+      <ul class="formation-list">
+        <li>2010 : <strong>Licence Professionnelle</strong> Activités et Techniques de Communications avec spécialité Concepteur et Intégrateur Web et Multimedia à l'IUT de Bobigny (93)</li>
+        <li>2009 : <strong>DUT Informatique</strong> à l'IUT d'Orléans (45)</li>
+        <li>2005 : <strong>Baccalauréat Scientifique</strong> option SI au Lycée Rémi Belleau, Nogent le Rotrou (28)</li>
+      </ul>
+    </section>
+
+  </div>
+</article>
+
+
+
+
+
+
+<article class="download">
+  <div class="wrapper">
+
+    <a href="/files/cv.pdf" download="cv-romain-richard.pdf" class="button download"><span class="icon-download-alt"></span>Téléchargez mon CV au format PDF</a>
+
+  </div>
+</article>
