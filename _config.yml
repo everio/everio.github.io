@@ -3,7 +3,7 @@ title: Romain Richard
 email: contact@romain-richard.fr
 description: Romain Richard - Développeur web - PHP5/MySQL Symfony2 LAMP HTML5/CSS3 Responsive Javascript/JQuery SEO
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://romain-richard.fr" # the base hostname & protocol for your site
+url: "https://www.romain-richard.fr" # the base hostname & protocol for your site
 twitter_username: _romainrichard
 github_username:  everio
 googleplus_username:  everio
